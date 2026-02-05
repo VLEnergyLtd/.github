@@ -28,11 +28,10 @@ We utilize a modern, type-safe stack designed for reliability and scale.
 
 | Domain | Technology |
 | :--- | :--- |
-| **Backend** | **Go** (Golang), ConnectRPC, gRPC |
+| **Backend** | **Go** (Golang), ConnectRPC+gRPC |
 | **Frontend** | **Flutter** (Riverpod for state management) |
 | **Database** | **PostgreSQL** |
-| **Infrastructure** | **AWS** (Migrating from Azure), Docker |
-| **Language** | **Rust** (High-performance tooling) |
+| **Infrastructure** | **AWS/Azure**, Docker |
 
 ---
 
@@ -40,8 +39,8 @@ We utilize a modern, type-safe stack designed for reliability and scale.
 
 Welcome to the team! We maintain high standards for code quality and design patterns. Before contributing, please adhere to the following:
 
-1.  **Read the Guidelines:** Review the `CONTRIBUTING.md` in your specific repository. We prioritize clean, modular code over "clever" one-liners.
-2.  **Branching Strategy:** We use protected branches. You cannot push directly to `main`.
+1.  **Read the Guidelines:** Review the intern code checklist. We prioritize clean, modular code over "clever" one-liners.
+2.  **Branching Strategy:** We use protected branches. You cannot push directly to `main`, 'dev', or 'prod'.
     * Create a feature branch (e.g., `feat/login-flow`).
     * Open a Pull Request (PR) to initiate a code review.
 3.  **Code Review:** All PRs require approval from the Core Dev team. Ensure your code is linted and tests pass before requesting a review.
